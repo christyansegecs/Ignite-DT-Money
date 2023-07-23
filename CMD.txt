@@ -1,0 +1,22 @@
+
+npm create vite@latest
+npm i
+npm i styled-components
+npm i phosphor-react
+npm install @radix-ui/react-dialog
+npm isntall @radix-ui/react-radio-group
+npm i react-hook-form
+npm i zod
+npm i @hookform/resolvers
+npm i axios
+npm i use-context-selector
+npm i scheduler
+npm i json-server -D
+npx json-server server.json
+
+In package.json:
+
+"scripts": {
+    "dev": "vite",
+    "server": "json-server server.json",
+}
